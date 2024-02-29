@@ -1,0 +1,35 @@
+<c-row ngPreserveWhitespaces>
+
+
+
+  <c-col xs="12">
+    <c-card class="mb-4">
+      <c-card-header>
+        <strong>Data upload</strong> <small>File input</small>
+      </c-card-header>
+      <c-card-body>
+           <div class="mb-3">
+            <label cLabel for="formFile">Default file input </label>
+            <input cFormControl id="formFile" type="file" />
+          </div>
+          <div class="mb-3">
+            <label cLabel for="formFileMultiple">Multiple files input </label>
+            <input cFormControl id="formFileMultiple" multiple type="file" />
+          </div>
+          <div class="mb-3">
+            <label cLabel for="formFileSm">Small file input </label>
+            <input cFormControl id="formFileSm" sizing="sm" type="file" />
+          </div>
+          <div>
+            <label cLabel for="formFileLg">Large file input example</label>
+            <input cFormControl id="formFileLg" sizing="lg" type="file" />
+          </div>
+
+      </c-card-body>
+    </c-card>
+  </c-col>
+
+
+
+</c-row>
+
